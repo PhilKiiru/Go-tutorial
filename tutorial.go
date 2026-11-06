@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 	var i float32 = 3.141
 
-	fmt.Printf("%e \n", i)
-	fmt.Printf("%f \n", i)
-	fmt.Printf("%.2f \n", i)
-	fmt.Printf("%6.2f \n", i)
-	fmt.Printf("%g", i)
+	fmt.Printf("The exponent for i is: %e \n", i)
+	fmt.Printf("The decimal point for i with no exponent is: %f \n", i)
+	fmt.Printf("The default width, precision 2 for i is: %.2f \n", i)
+	fmt.Printf("The width 6, precision 2 for i is: %6.2f \n", i)
+	fmt.Printf("The exponent only, with necessary digits for i is: %g", i)
 }
 
 // 1. Integer formatting verbs
@@ -65,7 +65,7 @@ func main() {
 	fmt.Printf("The value of i in hex dump with spaces is: % x \n", i)
 } */
 
-// Boolean Formating Verbs
+// 3. Boolean Formating Verbs
 // %t prints the value of the boolean operator (true or false). Works like the %v
 
 //test work
@@ -77,9 +77,20 @@ func main() {
 	fmt.Printf("The value of j is: %t \n", j)
 } */
 
-// Float Formating Verbs
+// 4. Float Formating Verbs
 // %e prints e as exponent
 // %f prints the decimal point, no exponent
 // %.2f defualt width, precision 2
 // %6.2f width 6, precision 2
 // %g exponent as needed , only necessary digits
+
+//test work 
+/* func main() {
+	var i float32 = 3.141
+
+	fmt.Printf("The exponent for i is: %e \n", i)
+	fmt.Printf("The decimal point for i with no exponent is: %f \n", i)
+	fmt.Printf("The default width, precision 2 for i is: %.2f \n", i)
+	fmt.Printf("The width 6, precision 2 for i is: %6.2f \n", i)
+	fmt.Printf("The exponent only, with necessary digits for i is: %g", i)
+} */
