@@ -1,18 +1,17 @@
-package main 
+package main
 
 import "fmt"
 
-func main () {
-	var i int = 56
-	var j string = "Boy!"
+func main() {
+	var i int = 76       // Integer data type
+	var j float32 = 56.4 // Float data type
+	var x bool = false   // Boolean data type
+	var y string = "Hi!" // String data type
 
-	//i 
-	fmt.Printf("The value of i is: %v and its type is: %T\n", i,i)
-	fmt.Printf("The percentage of i is: %v%% and it's Go-format is: %#v\n", i,i)
-
-	//j
-	fmt.Printf("The value of j is: %v and its type is: %T\n", j,j)
-	fmt.Printf("The percentage of j is: %v%% and its Go-format is: %#v", j,j)
+	fmt.Println("Int: ", i)
+	fmt.Println("Float32: ", j)
+	fmt.Println("Boolean: ", x)
+	fmt.Println("String: ", y)
 }
 
 // Go compact code
@@ -25,5 +24,19 @@ func main () {
 // Printf = format with %v, %T, %d, %s, etc., and you add \n yourself
 // %v is used to print the VALUE of arguments
 // %T is used to print the TYPE of arguments
-// %% is used to show the percentage 
-// %#v is used to print the Go-syntax format of the value 
+// %% is used to show the percentage
+// %#v is used to print the Go-syntax format of the value
+
+//test work
+/* func main () {
+	var i int = 56
+	var j string = "Boy!"
+
+	//i
+	fmt.Printf("The value of i is: %v and its type is: %T\n", i,i)
+	fmt.Printf("The percentage of i is: %v%% and it's Go-format is: %#v\n", i,i)
+
+	//j
+	fmt.Printf("The value of j is: %v and its type is: %T\n", j,j)
+	fmt.Printf("The percentage of j is: %v%% and its Go-format is: %#v", j,j)
+} */

@@ -3,13 +3,15 @@ package main
 import "fmt"
 
 func main() {
-	var i float32 = 3.141
+	var i string = "Hello"
+	var j int = 344
+	var x bool = true
+	var y float32 = 89.3
 
-	fmt.Printf("The exponent for i is: %e \n", i)
-	fmt.Printf("The decimal point for i with no exponent is: %f \n", i)
-	fmt.Printf("The default width, precision 2 for i is: %.2f \n", i)
-	fmt.Printf("The width 6, precision 2 for i is: %6.2f \n", i)
-	fmt.Printf("The exponent only, with necessary digits for i is: %g", i)
+	fmt.Printf("The value of i is: %s \n", i)
+	fmt.Printf("The value of j to base 2 is: %b \n", j)
+	fmt.Printf("The value of x is: %t \n", x)
+	fmt.Printf("The value of exponent is y is: %e \n", y)
 }
 
 // 1. Integer formatting verbs
@@ -84,7 +86,7 @@ func main() {
 // %6.2f width 6, precision 2
 // %g exponent as needed , only necessary digits
 
-//test work 
+//test work
 /* func main() {
 	var i float32 = 3.141
 
