@@ -1,19 +1,17 @@
 package main
 
-import "fmt"
+import "fmt" 
 
 func main() {
-	var i int = 76       // Integer data type
-	var j float32 = 56.4 // Float data type
-	var x bool = false   // Boolean data type
-	var y string = "Hi!" // String data type
+	var i float32 = 567.676786776767676
+	var j float64 = 56575757575.9494949494
 
-	fmt.Println("Int: ", i)
-	fmt.Println("Float32: ", j)
-	fmt.Println("Boolean: ", x)
-	fmt.Println("String: ", y)
+	fmt.Println(i)
+	fmt.Println(j)
 }
 
+
+// pkgm + tab = package main func main() {}
 // Go compact code
 // package main; import "fmt" func main () {fmt.Println("Hello World!");}
 
@@ -40,3 +38,9 @@ func main() {
 	fmt.Printf("The value of j is: %v and its type is: %T\n", j,j)
 	fmt.Printf("The percentage of j is: %v%% and its Go-format is: %#v", j,j)
 } */
+
+// The default value for boolean is false 
+// The default value for integer is int
+// The default value for float is float64
+// Signed integers (int) stores both negative and positive values
+// Unsigned integers (uint) store non negative values only 
