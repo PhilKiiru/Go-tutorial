@@ -1,13 +1,27 @@
-package main
+package main 
 
-import "fmt" 
+import "fmt"
 
-func main() {
-	var i float32 = 567.676786776767676
-	var j float64 = 56575757575.9494949494
+func main () {
+	var i int = 567
+	var x int
+	var j string = "Sunny!"
+	var y string 
+	var t float32 = 65
+	var u float32
+	var c float64
+	var g bool
+	d := true
 
 	fmt.Println(i)
+	fmt.Println(x)
 	fmt.Println(j)
+	fmt.Println(y)
+	fmt.Println(t)
+	fmt.Println(u)
+	fmt.Println(c)
+	fmt.Println(g)
+	fmt.Println(d)
 }
 
 
@@ -44,3 +58,4 @@ func main() {
 // The default value for float is float64
 // Signed integers (int) stores both negative and positive values
 // Unsigned integers (uint) store non negative values only 
+// String values must be aurrounded by double quotes 
